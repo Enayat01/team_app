@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:team_app/config/constants.dart';
-import 'package:team_app/screens/bottom_nav_bar.dart';
 
 class RosterScreen extends StatelessWidget {
   const RosterScreen({Key? key}) : super(key: key);

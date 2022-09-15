@@ -84,6 +84,7 @@ class _TeamPageState extends State<TeamPage> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: _tabController.index == 2 ? true : false,
       appBar: AppBar(
         centerTitle: true,
         title: const Text('Team'),
